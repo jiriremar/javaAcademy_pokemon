@@ -100,8 +100,14 @@ VALUES
 ('Catch big pokemon');
 
 INSERT INTO trainer (trainer_name, id_speciality) VALUES ("Ash Ketchum", 1);
-
 INSERT INTO pokemon (id_trainer, pokemon_name, id_type_pokemon, attack, defence) VALUES (1, 'Bulbasaur', 12, 22, 5);
 INSERT INTO pokemon (id_trainer, pokemon_name, id_type_pokemon, attack, defence) VALUES (NULL, 'Charmander', 10, 50, 13);
+INSERT INTO pokemon (id_trainer, pokemon_name, id_type_pokemon, attack, defence) VALUES (1, 'Pikachu', 13, 65, 24);
+INSERT INTO pokemon (id_trainer, pokemon_name, id_type_pokemon, attack, defence) VALUES (NULL, 'Voltorb', 13, 12, 35);
+INSERT INTO pokemon (id_trainer, pokemon_name, id_type_pokemon, attack, defence) VALUES (NULL, 'Swablu', 3, 25, 95);
+INSERT INTO pokemon (id_trainer, pokemon_name, id_type_pokemon, attack, defence) VALUES (NULL, 'Corsola', 6, 7, 52);
+INSERT INTO pokemon (id_trainer, pokemon_name, id_type_pokemon, attack, defence) VALUES (NULL, 'Rhyhorn', 6, 95, 54);
+INSERT INTO pokemon (id_trainer, pokemon_name, id_type_pokemon, attack, defence) VALUES (NULL, 'Poliwag', 11, 32, 25);
+INSERT INTO pokemon (id_trainer, pokemon_name, id_type_pokemon, attack, defence) VALUES (NULL, 'Scyther', 2, 62, 24);
 
 ````
