@@ -16,7 +16,7 @@ public class InputUtils {
                 scanner.nextLine();
                 return input;
             } catch (Exception e) {
-                System.out.println(e.getMessage());
+                System.out.print("Please enter an integer 1 - 8 ");
                 scanner.nextLine();
             }
         }

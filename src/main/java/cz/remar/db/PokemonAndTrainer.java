@@ -1,13 +1,13 @@
 package cz.remar.db;
 
-public class Pokemon {
+public class PokemonAndTrainer {
     private final int id;
     private final String pokemonName;
     private final String pokemonTrainer;
     private final String pokemonType;
     private String catchable;
 
-    public Pokemon(int id, String pokemonName, String pokemonTrainer, String pokemonType, String catchable) {
+    public PokemonAndTrainer(int id, String pokemonName, String pokemonTrainer, String pokemonType, String catchable) {
         this.id = id;
         this.pokemonName = pokemonName;
         this.pokemonTrainer = pokemonTrainer;
@@ -38,12 +38,11 @@ public class Pokemon {
 
     @Override
     public String toString() {
-        return "Pokemon{" +
-                "id=" + id +
-                ", pokemonName='" + pokemonName + '\'' +
-                ", pokemonTrainer='" + pokemonTrainer + '\'' +
-                ", pokemonType='" + pokemonType + '\'' +
-                ", catchable='" + catchable + '\'' +
-                '}';
+        return "    " +
+                "ID=" + id +
+                " Pokemon name='" + pokemonName + '\'' +
+                ", Pokemon trainer='" + pokemonTrainer + '\'' +
+                ", Pokemon type='" + pokemonType + '\'' +
+                ", Catchable='" + catchable;
     }
 }
